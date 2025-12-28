@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/twitter",
+  "name": "@zos-apps/twitter",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "𝕏",
     "category": "social",
     "description": "Real-time social media and news",
-    "permissions": ["network"],
+    "permissions": [
+      "network"
+    ],
     "window": {
-      "defaultSize": { "width": 600, "height": 700 },
+      "defaultSize": {
+        "width": 600,
+        "height": 700
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Real-time social media and news",
+  "homepage": "https://zos-apps.github.io/twitter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/twitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/twitter/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "twitter",
+    "macos",
+    "desktop"
+  ]
 }
