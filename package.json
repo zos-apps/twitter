@@ -20,7 +20,22 @@
         "height": 700
       },
       "resizable": true
-    }
+    },
+    "about": "Social media platform for news and conversations.",
+    "help": [
+      "Scroll timeline",
+      "Click to view tweet",
+      "Compose with + button"
+    ],
+    "docs": "https://zos-apps.github.io/twitter",
+    "site": "https://github.com/zos-apps/twitter",
+    "features": [
+      "Timeline",
+      "Tweets",
+      "Retweets",
+      "Likes",
+      "Direct messages"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "twitter",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

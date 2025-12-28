@@ -1,54 +1,75 @@
-# 𝕏 X
+# X
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/twitter/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/twitter)
+𝕏 Social media platform for news and conversations.
 
-> Real-time social media and news
+[![CI](https://github.com/zos-apps/twitter/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/twitter/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/twitter.svg)](https://www.npmjs.com/package/@zos-apps/twitter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/twitter)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/twitter
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import X from '@zos-apps/twitter';
-
-function App() {
-  return <X />;
-}
-```
+Social media platform for news and conversations.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Timeline
+- Tweets
+- Retweets
+- Likes
+- Direct messages
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "X".
 
-**Social**
+### Via npm
+```bash
+npm install @zos-apps/twitter
+```
 
-## Permissions
+## Usage
 
-- `network`
+- Scroll timeline
+- Click to view tweet
+- Compose with + button
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/twitter)
-- [GitHub Repository](https://github.com/zos-apps/twitter)
-- [Report Issues](https://github.com/zos-apps/twitter/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/twitter)
+- [API Reference](https://zos-apps.github.io/twitter/api)
+- [Changelog](https://github.com/zos-apps/twitter/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/twitter/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
