@@ -35,7 +35,26 @@
       "Retweets",
       "Likes",
       "Direct messages"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/twitter"
+    },
+    "featured": false,
+    "tags": [
+      "social",
+      "communication",
+      "twitter"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/twitter/issues",
+    "changelog": "https://github.com/zos-apps/twitter/releases"
   },
   "scripts": {
     "build": "tsup",
