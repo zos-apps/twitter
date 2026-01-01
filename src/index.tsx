@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface TwitterProps {
   onClose: () => void;
@@ -29,7 +29,7 @@ const formatCount = (n: number) => {
   return n.toString();
 };
 
-const Twitter: React.FC<TwitterProps> = ({ onClose }) => {
+const Twitter: React.FC<TwitterProps> = ({ onClose: _onClose }) => {
   const [tweets] = useState(mockTweets);
   const [tab, setTab] = useState<'for-you' | 'following'>('for-you');
   const [newTweet, setNewTweet] = useState('');
